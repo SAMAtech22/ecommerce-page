@@ -1,22 +1,26 @@
 
    body{
       margin: 0;
-      padding: 0;
-      max-width: 1440px;
+      /* padding: 30px; */
+      /* max-width: 1440px; */
    }
    
-   header{
+   header .pad{
       display: grid;
       grid-template-columns: repeat(12, 1fr);
       padding: 20px;
+   }
+
+   .pad{
       border-bottom: 1px solid black;
+      padding: 60px;
    }
 
    .logo{
       justify-self: center;
       align-self: center;
       grid-column: span 2;
-      border-bottom: 1px solid black;
+   
    }
    
 
@@ -25,11 +29,100 @@
       align-self: center;
    }
 
-   
-
    .cpic{
       display: flex;
       gap: 30px;
-      align-self: center;
+      align-self: center;      
+   }
+
+   .container{
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
       
+      padding: 10px;
+   }
+
+   .left-section{
+      grid-column: span 6;
+      padding: px;
+      /* text-align: center; */
+   }
+   .sub-img{
+      display: flex;
+      gap: 20px;
+      padding-left: 40px;
+      
+   }
+   .right-section{
+      grid-column: 7/12;
+   }
+
+   .sneakers{
+      color: hsl(26, 100%, 55%);
+   }
+
+   h3{
+      font-size: 50px;
+      margin-top: 0px;
+   }
+
+   .intro{
+      font-size: 24px;
+      color: hsl(0, 1%, 40%);
+   }
+
+   .price{
+      color: hsl(0, 1%, 40%);
+      text-decoration: line-through;
+   }
+
+   .bprice{
+      font-size: 24px;
+      margin-right: 10px;
+   }
+
+   span{
+      padding: 5px 10px;
+      background-color: hsl(25, 100%, 94%);
+      color: hsl(26, 100%, 55%);
+   }
+
+   .bottom{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap:10px;
+   }
+
+   .plusandminus{
+      display: flex;
+      gap: 40px;
+      background-color: hsl(0, 16%, 87%);
+      align-self: center;
+      padding: 12px 10px;
+      border-radius: 5px;
+   }
+
+   .minus svg{
+      margin-bottom: 2px;
+   }
+
+   .end-cart{
+      grid-column: 2/5;
+      /* background-color: black; */
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-self: center;
+      padding: 10px 150px;
+      border-radius: 5px;
+      background-color: orange;
+      
+   }
+
+   .end-cart button{
+      border: none;
+      text-align: center;
+      background-color: orange;
+      font-size: 16px;
+      color: white;
    }
