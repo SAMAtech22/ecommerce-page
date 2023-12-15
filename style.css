@@ -1,0 +1,35 @@
+
+   body{
+      margin: 0;
+      padding: 0;
+      max-width: 1440px;
+   }
+   
+   header{
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      padding: 20px;
+      border-bottom: 1px solid black;
+   }
+
+   .logo{
+      justify-self: center;
+      align-self: center;
+      grid-column: span 2;
+      border-bottom: 1px solid black;
+   }
+   
+
+   .links {
+      grid-column: span 7;
+      align-self: center;
+   }
+
+   
+
+   .cpic{
+      display: flex;
+      gap: 30px;
+      align-self: center;
+      
+   }
